@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 75px;
+  background-color: #3b3b3b;
+}
+
+h3 {
+    margin: 0 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #81ac5e;
+  font-size: 1.3rem;
+  padding: 0 15px;
+}
+
+.navbar-cart {
+  padding: 0px 10px;
+}
+
+.img-btn-navbar {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-navbar {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
