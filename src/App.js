@@ -1,6 +1,7 @@
-import './App.css';
-import NavBar from './components/NavBar/Navbar';
-import ItemListContainer from './components/ItemList/ItemListContainer'
+import "./App.css";
+import NavBar from "./components/NavBar/Navbar";
+import ItemListContainer from "./components/ItemList/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetail/ItemDetailContainer"
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         <NavBar />
       </header>
       <body>
-        <ItemListContainer greetings="Bienvenidos!"/>
+        <ItemListContainer />
+        <ItemDetailContainer />
       </body>
     </div>
   );

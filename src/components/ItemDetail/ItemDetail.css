@@ -1,0 +1,11 @@
+.ItemDetailContainter {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+}
+
+.ImgDetail {
+    height: 150px;
+    width: 150px;
+}
